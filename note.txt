@@ -1,0 +1,28 @@
+Trong controller:Viết hoa mỗi chữ cái đầu tiên
+Model :viết hoa chữ cái đầu tiên thôi
+Views:tên_file.blade.			(viết thường hết)
+
+
+
+-QUY TẮC TẠO TÊN BIẾN
++Tên biến ko đc phép bắt đầu bằng ssoo
++Ko dấu
++Không khoảng trống
++Phân biệt hoa thường
++Biến ko đc có ký tự đặc biệt (ngoại trừ dấu _ )
++Biến có khả năng ghi đè
+
+
+dùng cái này tạo controller
+php artisan make:controller đường_dẫn
+
+khi truyền giá trị trong controller
+return view(đường dẫn wed,[tên biến
+tên biến nếu truyền 1 giá trị thì data1 , giá trị thứ hai thì tên data2 cứ vậy tăng lên lưa ý nếu truyền trên 2 giá trị nhớ note lại tại chỗ tron controller để sau này còn biến
+
+
+khi dùng foreach ($tên_biến as $tên_biến_nhưng_viết_hoa_toàn_bộ
+
+
+Ảnh product thì tên màu_tên random nhớ nha 
+ảnh chỉnh thì index _tên radom nhớ
